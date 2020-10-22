@@ -31,7 +31,7 @@ Note that the third command (`./script/bootstrap`) may require you to use `sudo`
 
 ```bash
 git clone https://github.com/choosealicense-cn/choosealicense-cn.github.io.git
-cd choosealicense.com
+cd choosealicense-cn.github.io
 ./script/bootstrap
 ./script/server
 ```

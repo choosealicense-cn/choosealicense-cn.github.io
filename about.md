@@ -12,7 +12,7 @@ GitHub 希望帮助开发人员为其源代码选择开源许可证（注：中�
 
 本站点不是开源许可证的完整目录。[首页](/)上突出显示的三个选项之一可能会为绝大多数项目提供良好的服务——选择跟您项目类似的项目[首选](/community/)许可证，或选择最受欢迎的许可证（[MIT 协议](/licenses/mit/)），或选择最受欢迎的 copyleft 许可证（[GNU GPLv3 协议](/licenses/gpl-3.0/)）。若是以上选择还未满足您的特定需求，我们还重点介绍了其他一些需要考虑的[许可证](/licenses/)，并提供了一个页面介绍有关[非软件项目许可证](/non-software/)。
 
-请参阅我们的[附录](/appendix/)，从而获取在 [choicealicense-cn.github.io](https://github.com/choosealicense-cn/choosealicense-cn.github.io) 仓库中归类的各个许可证的表格以及下面**更多**许可证的链接，而您**无需**了解列出的所有许可证，就可以为项目选择合适的许可证。
+请参阅我们的[附录](/appendix/)，从而获取在 [choicealicense.rustwiki.org](https://github.com/choosealicense-cn/choosealicense-cn.github.io) 仓库中归类的各个许可证的表格以及下面**更多**许可证的链接，而您**无需**了解列出的所有许可证，就可以为项目选择合适的许可证。
 
 ### 额外资源
 

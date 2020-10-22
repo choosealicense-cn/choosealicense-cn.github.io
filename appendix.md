@@ -5,7 +5,7 @@ title: 附录
 class: license-types
 ---
 
-供参考，这是 [choicealicense-cn.github.io](https://github.com/choosealicense-cn/choosealicense-cn.github.io) 存仓库中描述的全部许可证的表格。
+供参考，这是 [choocealicense.rustwiki.org](https://github.com/choosealicense-cn/choosealicense-cn.github.io) 存仓库中描述的全部许可证的表格。
 
 如果您在这里选择许可证，**[请从主页开始](/)**，查看适用于大多数情况的少数几个许可证。
 
