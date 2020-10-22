@@ -1,0 +1,59 @@
+---
+title: BSD 3条款“新版”或“修订版”许可证
+spdx-id: BSD-3-Clause
+nickname: 别名：BSD 3条款“新版”或“修订版”许可协议，BSD-3 许可证/许可协议
+hidden: false
+
+description: BSD-3 许可证类似于<a href="/licenses/bsd-2-clause/"> BSD-2 许可证</a>，但带有第 3 个条款，本条款内容是未经书面同意禁止其他人使用项目名称或贡献者来推广衍生产品。
+
+how: 在源代码的根目录中创建一个文本文件（通常命名为 LICENSE 或 LICENSE.txt），并将许可证文本复制到该文件中。将 [year] 替换为当前年份，并将 [fullname] 换为版权所有者的姓名。
+
+using:
+  d3: https://github.com/d3/d3/blob/master/LICENSE
+  LevelDB: https://github.com/google/leveldb/blob/master/LICENSE
+  Quill: https://github.com/quilljs/quill/blob/develop/LICENSE
+
+permissions:
+  - commercial-use
+  - modifications
+  - distribution
+  - private-use
+
+conditions:
+  - include-copyright
+
+limitations:
+  - liability
+  - warranty
+
+---
+
+BSD 3-Clause License
+
+Copyright (c) [year], [fullname]
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

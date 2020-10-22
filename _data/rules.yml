@@ -1,0 +1,56 @@
+permissions:
+- description: 许可的材料和衍生物可用于商业目的。
+  label: 商业用途
+  tag: commercial-use
+- description: 许可材料可以被修改。
+  label: 修改
+  tag: modifications
+- description: 许可材料可以分发。
+  label: 分发
+  tag: distribution
+- description: 许可的材料可以私下使用和修改。
+  label: 私人使用
+  tag: private-use
+- description: 该许可证提供了明确的专利权授予权力。
+  label: 专利使用
+  tag: patent-use
+
+conditions:
+- description: 许可和版权声明的副本必须包含在许可材料中。
+  label: 许可和版权声明
+  tag: include-copyright
+- description: 许可和版权声明的副本必须以原始形式包含在许可材料中，但对于二进制文件则不是必需的。
+  label: 许可和版权声明资源
+  tag: include-copyright--source
+- description: 对许可材料所做的更改必须记录在案。
+  label: 状态变更
+  tag: document-changes
+- description: 分发许可材料时，必须提供源代码。
+  label: 公开资源
+  tag: disclose-source
+- description: 通过网络与许可材料进行交互的用户被授予接收源代码副本的权利。
+  label: 网络使用是公开的
+  tag: network-use-disclose
+- description: 分发许可材料时，必须在同一许可下发布修改。在某些情况下，可以使用类似或相关的许可证。
+  label: 相同许可证
+  tag: same-license
+- description: 分发许可材料时，必须在同一许可下发布对现有文件的修改。在某些情况下，可以使用类似或相关的许可证。
+  label: 相同许可证（文件）
+  tag: same-license--file
+- description: 分发许可材料时，必须在同一许可下发布修改。在某些情况下，可能会使用类似或相关的许可，或者该条件可能不适用于将许可材料用作库的作品。
+  label: 相同许可证（库）
+  tag: same-license--library
+
+limitations:
+- description: 该许可证明确声明它不授予商标权，即使没有此类声明的许可证也可能不授予任何隐含的商标权。
+  label: 商标使用
+  tag: trademark-use
+- description: 该许可包括责任限制。
+  label: 责任
+  tag: liability
+- description: 该许可证明确声明它不授予贡献者专利的任何权利。
+  label: 专利使用
+  tag: patent-use
+- description: 该许可证明确声明不提供任何保证。
+  label: 保证
+  tag: warranty

@@ -1,0 +1,54 @@
+<div class="sidebar">
+
+  <a href="#" data-clipboard-target="#license-text" data-proofer-ignore="true" class="js-clipboard-button button">将许可证文本复制到剪贴板</a>
+  {% unless page.spdx-id == 'LGPL-3.0' %}
+  <h3 id="suggest-this-license">推荐本许可证</h3>
+  <div class="repository-suggestion">
+    <p>发起一个 PR 请求，以推荐<a href="/no-permission/">未获得许可</a>的项目使用本协议。请保持礼貌：查看是否已经推荐了许可证，尝试为项目<a href="/community/">社区</a>推荐适合的许可证，并与项目维护者的保持友好交流。</p>
+    <div class="input-wrapper">
+      <input type="text" data-license-id="{{ page.spdx-id }}" placeholder="请输入 GitHub 仓库 URL" id="repository-url" title="status" />
+      <div class="status-indicator"></div>
+    </div>
+  </div>
+  {% endunless %}
+
+  <div class="how-to-apply">
+    <h3 id="how-to-apply">如何申请本许可证</h3>
+    <p>
+      {{ page.how | markdownify | remove: '<p>' | remove: '</p>' }}
+    </p>
+    <div class="note">
+    <h4 id="optional-steps">可选步骤</h4>
+    {% if page.note %}
+    <p>
+      {{ page.note | markdownify | remove: '<p>' | remove: '</p>' }}
+    </p>
+    {% endif %}
+    {% assign xgpl = false %}
+    {% if page.spdx-id contains 'GPL' %}{% assign xgpl = true %}{% endif %}
+    <p id="package-metadata">若合适，添加 <strong><code>{{ page.spdx-id }}{% if xgpl %}-or-later{% endif %}</code></strong>{% if xgpl %} （或 <strong><code>{{ page.spdx-id }}-only</code></strong> 禁止将来的版本）{% endif %} 协议到项目程序包的描述中（例如：<a href="https://docs.npmjs.com/files/package.json#license">Node.js</a>、<a href="https://guides.rubygems.org/specification-reference/#license=">Ruby</a>、和 <a href="https://doc.rust-lang.org/cargo/reference/manifest.html#package-metadata">Rust</a>）。这将确保许可证显示在软件包目录中。</p>
+    {% if page.spdx-id contains 'GPL-2' %}
+    <p id="gplcc">如果你想你的项目采用 GPL-3.0 的治愈条款，添加<a href="https://gplcc.github.io/gplcc/">GPL 合作承诺</a>的<a href="https://github.com/gplcc/gplcc/blob/master/Project/COMMITMENT">文本</a>，以一个名为 <code>COMMITMENT</code> 的文件放在在同一个目录作为您的 {{ page.spdx-id }} 许可文件。</p>
+    {% endif %}
+    </div>
+  </div>
+
+  <div class="source">
+    <a href="https://spdx.org/licenses/{{ page.spdx-id }}{% if xgpl %}-or-later{% endif %}.html">
+      <span class="license-sprite"></span>
+      来源
+    </a>
+  </div>
+
+  {% if page.using %}
+  <div class="projects-with-license">
+    <h3>谁在使用此许可证？</h3>
+    <ul>
+      {% for using in page.using %}
+        <li><a href="{{ using[1] }}" target="_blank">{{ using[0] }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+</div> <!-- /sidebar -->

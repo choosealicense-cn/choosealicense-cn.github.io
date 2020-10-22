@@ -1,0 +1,62 @@
+---
+title: BSD 4条款“原版”或“旧版”许可证
+spdx-id: BSD-4-Clause
+nickname: BSD 4条款“原版”或“旧版”许可协议，BSD-4 “原版”或“旧版”许可证/许可协议
+
+description: BSD-4 “旧版”许可证作为一种宽容的许可证，类似于<a href="/licenses/bsd-3-clause/"> BSD 3条款许可证</a>，但带有“广告条款”，要求在所有广告材料中注明原始来源。
+
+how: 在源代码的根目录中创建一个文本文件（通常命名为 LICENSE 或 LICENSE.txt），并将许可证文本复制到该文件中。将 [year] 替换为当前年份，并将 [fullname] 换为版权所有者的姓名。将 [project] 替换为赞助这项工作的项目组织（如果有的话）。
+
+using:
+  Choco-solver: https://github.com/chocoteam/choco-solver/blob/master/LICENSE
+  PMSPAUR-public: https://github.com/ArthurGodet/PMSPAUR-public/blob/master/LICENSE
+  Switchblade: https://github.com/SwitchbladeBot/switchblade/blob/dev/LICENSE
+
+permissions:
+  - commercial-use
+  - modifications
+  - distribution
+  - private-use
+
+conditions:
+  - include-copyright
+
+limitations:
+  - liability
+  - warranty
+
+---
+
+BSD 4-Clause License
+
+Copyright (c) [year], [fullname]
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. All advertising materials mentioning features or use of this software must
+   display the following acknowledgement:
+     This product includes software developed by [project].
+
+4. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY COPYRIGHT HOLDER "AS IS" AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

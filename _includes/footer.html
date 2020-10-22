@@ -1,0 +1,48 @@
+      <footer class="site-footer clearfix">
+        <nav>
+          <a href="/about/">关于</a>
+          <a href="/terms-of-service/">服务条款</a>
+          {% github_edit_link "帮助改善此页面" %}
+        </nav>
+        <p>
+            本站点的内容按照<a href="https://creativecommons.org/licenses/by/3.0/deed.zh">知识共享 署名 3.0 未本地化版本 (CC BY 3.0)许可</a>进行授权。
+        </p>
+        <div class="with-love">
+            由 <a href="https://github.com">GitHub，Inc.</a> 和每个人（<a href="https://github.com/github/choosealicense.com">英文仓库</a>和<a href="https://github.com/choosealicense-cn/choosealicense-cn.github.io">中文翻译仓库</a>）用❤️ 共同策划。
+        </div>
+      </footer>
+
+    </div> <!-- /container -->
+
+    {% if page.collection == "licenses" or page.class == "license-types" %}
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="/assets/vendor/qtip2/jquery.qtip.min.js"></script>
+    <script src="/assets/vendor/clipboard/dist/clipboard.min.js"></script>
+    <script>
+      window.annotations = {{ site.data.rules | jsonify }};
+      {% if page.collection == "licenses" %}
+      window.licenses = [
+        {% for license in site.licenses %}
+          {
+            "title": "{{ license.title | escape  }}",
+            "spdx_id": "{{ license.spdx-id | escape  }}"
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ];
+      {% endif %}
+    </script>
+    <script src="/assets/js/app.js"></script>
+    {% endif %}
+
+    <script>
+      !function(L,I,C,e,N,S,E){L.GoogleAnalyticsObject=N,L[N]=L[N]||function(){
+      (L[N].q=L[N].q||[]).push(arguments)},L[N].l=+new Date,S=I.createElement(C),
+      E=I.getElementsByTagName(C)[0],S.src=e,E.parentNode.insertBefore(S,E)
+      }(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+      ga('create', 'UA-3769691-24', 'choosealicense.com');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>

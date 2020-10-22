@@ -1,0 +1,52 @@
+---
+title: MIT 许可证
+spdx-id: MIT
+nickname: 别名：MIT 许可协议，MIT 协议
+featured: true
+hidden: false
+
+description: 一种简短而简单的宽松许可证，其条件仅要求保留版权和许可声明。许可的作品、修改和更大的作品可以在不同的许可协议和没有源代码的情况下分发。
+
+how: 在源代码的根目录中创建一个文本文件（通常命名为 LICENSE 或 LICENSE.txt），并将许可证文本复制到该文件中。将 [year] 替换为当前年份，并将 [fullname] 换为版权所有者的姓名。
+
+using:
+  Babel: https://github.com/babel/babel/blob/master/LICENSE
+  .NET Core: https://github.com/dotnet/runtime/blob/master/LICENSE.TXT
+  Rails: https://github.com/rails/rails/blob/master/MIT-LICENSE
+
+permissions:
+  - commercial-use
+  - modifications
+  - distribution
+  - private-use
+
+conditions:
+  - include-copyright
+
+limitations:
+  - liability
+  - warranty
+
+---
+
+MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

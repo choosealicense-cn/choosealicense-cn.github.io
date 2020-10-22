@@ -1,0 +1,48 @@
+---
+title: PostgreSQL 许可证
+spdx-id: PostgreSQL
+nickname: 别名：PostgreSQL 许可协议
+
+description: 一个非常简短的 BSD 风格许可证，专门用于 PostgreSQL。
+
+how: 在源代码的根目录中创建一个文本文件（通常命名为 LICENSE 或 LICENSE.txt），并将许可证文本复制到该文件中。将 [year] 替换为当前年份，并将 [fullname] 换为版权所有者的姓名。
+
+using:
+  pgBadger: https://github.com/darold/pgbadger/blob/master/LICENSE
+  pgAdmin: https://github.com/postgres/pgadmin4/blob/master/LICENSE
+  .NET Access to PostgreSQL: https://github.com/npgsql/npgsql/blob/main/LICENSE
+
+permissions:
+  - commercial-use
+  - modifications
+  - distribution
+  - private-use
+
+conditions:
+  - include-copyright
+
+limitations:
+  - liability
+  - warranty
+
+---
+
+PostgreSQL License
+
+Copyright (c) [year], [fullname]
+
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose, without fee, and without a written agreement is
+hereby granted, provided that the above copyright notice and this paragraph
+and the following two paragraphs appear in all copies.
+
+IN NO EVENT SHALL [fullname] BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING
+OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF [fullname]
+HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+[fullname] SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS,
+AND [fullname] HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES,
+ENHANCEMENTS, OR MODIFICATIONS.

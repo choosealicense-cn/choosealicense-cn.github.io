@@ -1,0 +1,46 @@
+---
+title: ISC 许可证
+spdx-id: ISC
+nickname: 别名：ISC 许可协议
+
+description: ISC 许可证是一种宽容的许可证，使人们带上适当的署名就可以对您的代码进行任何操作，并且不提供担保。 ISC 许可证在功能上等同于<a href="/licenses/bsd-2-clause/"> BSD-2 许可证</a>和<a href="/licenses/mit/"> MIT 许可证</a>，删除了不再需要的某些语言。
+
+description: 许可许可证使人们可以对您的代码进行任何操作，并带有适当的署名且不提供担保。 ISC许可证在功能上等同于<a href="/licenses/bsd-2-clause/"> BSD 2条款</a>和<a href="/licenses/mit/"> MIT </a> 许可，删除不再需要的某些语言。
+
+how: 在源代码的根目录中创建一个文本文件（通常命名为 LICENSE 或 LICENSE.txt），并将许可证文本复制到该文件中。将 [year] 替换为当前年份，并将 [fullname] 换为版权所有者的姓名。
+
+using:
+  Starship: https://github.com/starship/starship/blob/master/LICENSE
+  Node.js semver: https://github.com/npm/node-semver/blob/master/LICENSE
+  OpenStreetMap iD: https://github.com/openstreetmap/iD/blob/develop/LICENSE.md
+
+permissions:
+  - commercial-use
+  - distribution
+  - modifications
+  - private-use
+
+conditions:
+  - include-copyright
+
+limitations:
+  - liability
+  - warranty
+
+---
+
+ISC License
+
+Copyright (c) [year], [fullname]
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.

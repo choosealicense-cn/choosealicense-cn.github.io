@@ -1,0 +1,67 @@
+---
+title: 通用宽容许可证 v1.0
+spdx-id: UPL-1.0
+nickname: 别名：通用宽容许可协议 v1.0，UPL-1.0 许可证/许可协议
+
+description: 一个宽容的、经OSI和FSF批准，且与 GPL 兼容的许可证，明确允许仅注明版权声明和简短链接而不是许可证全文。包括明确授予的专利权。许可的作品和修改可以在不同许可协议和不提供源代码情况下分发，并且专利授予也可以选择扩展到更大的作品，以允许用于贡献者许可协议。
+
+how: 将许可证或指向许可证的链接以及版权声明插入您的源文件中，和/或在源代码的根目录中创建一个文本文件（通常命名为 LICENSE 或 LICENSE.txt），将许可证文本复制到该文件中，并将 [year] 替换为当前年份，并将 [fullname] 换为版权所有者的姓名。
+
+note: 建议在每个源文件的顶部添加许可证和版权声明的链接，示例文本可在 https://oss.oracle.com/licenses/upl/ 中找到。
+
+using:
+  Oracle Product Images for Docker: https://github.com/oracle/docker-images/blob/master/LICENSE
+  Skater: https://github.com/oracle/Skater/blob/master/LICENSE
+  Soufflé: https://github.com/souffle-lang/souffle/blob/master/LICENSE
+
+permissions:
+  - commercial-use
+  - modifications
+  - distribution
+  - patent-use
+  - private-use
+
+conditions:
+  - include-copyright
+
+limitations:
+  - liability
+  - warranty
+
+---
+
+Copyright (c) [year] [fullname]
+
+The Universal Permissive License (UPL), Version 1.0
+
+Subject to the condition set forth below, permission is hereby granted to any
+person obtaining a copy of this software, associated documentation and/or data
+(collectively the "Software"), free of charge and under any and all copyright
+rights in the Software, and any and all patent rights owned or freely
+licensable by each licensor hereunder covering either (i) the unmodified
+Software as contributed to or provided by such licensor, or (ii) the Larger
+Works (as defined below), to deal in both
+
+(a) the Software, and
+(b) any piece of software and/or hardware listed in the lrgrwrks.txt file if
+one is included with the Software (each a “Larger Work” to which the Software
+is contributed by such licensors),
+
+without restriction, including without limitation the rights to copy, create
+derivative works of, display, perform, and distribute the Software and make,
+use, sell, offer for sale, import, export, have made, and have sold the
+Software and the Larger Work(s), and to sublicense the foregoing rights on
+either these or other terms.
+
+This license is subject to the following condition:
+The above copyright notice and either this complete permission notice or at
+a minimum a reference to the UPL must be included in all copies or
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

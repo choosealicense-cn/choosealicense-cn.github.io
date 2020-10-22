@@ -1,0 +1,40 @@
+---
+title: BSD 0条款许可证
+spdx-id: 0BSD
+nickname: 别名：BSD 0条款许可协议，0BSD 许可证/许可协议
+
+description: BSD 零条款许可证比 BSD 双条款许可证更进一步使您可以不受限制地自由使用软件，而无需以原始或二进制形式包含版权声明、许可证文本或免责声明。
+
+how: 在源代码的根目录中创建一个文本文件（通常命名为 LICENSE 或 LICENSE.txt），并将许可证文本复制到该文件中。将 [year] 替换为当前年份，并将 [fullname] 换为版权所有者的姓名。您可以采取其他步骤删除版权声明。
+
+using:
+  PickMeUp: https://github.com/nazar-pc/PickMeUp/blob/master/copying.md
+  smoltcp: https://github.com/m-labs/smoltcp/blob/master/LICENSE-0BSD.txt
+  Toybox: https://github.com/landley/toybox/blob/master/LICENSE
+
+permissions:
+  - commercial-use
+  - distribution
+  - modifications
+  - private-use
+
+conditions: []
+
+limitations:
+  - liability
+  - warranty
+
+---
+
+Copyright (c) [year] [fullname]
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
