@@ -1,4 +1,4 @@
-**[ChooseALicense.rustwiki.org](https://choosealicense.rustwiki.org)**  is the Chinese translation of the **[ChooseALicense.com](https://choosealicense.com)** ,which aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribute to, and use.
+**[ChooseALicense.rustwiki.org](https://choosealicense.rustwiki.org)**  is the Chinese translation of the **[ChooseALicense.com](https://choosealicense.com)**, which aims to provide **accurate**, **non-judgmental**, and **understandable** information about popular **open source licenses** in order to **help people make informed decisions** about the projects they start, maintain, contribute to, and use.
 
 > **[ChooseALicense.rustwiki.org](https://choosealicense.rustwiki.org)** 是 **[ChooseALicense.com](https://choosealicense.com)** 的中文翻译网站。
 
